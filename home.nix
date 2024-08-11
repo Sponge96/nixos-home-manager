@@ -20,6 +20,7 @@
     ./theme.nix
     ./pavucontrol.nix
     ./resources.nix
+    ./unzip.nix
     # PROGRAMS
     ./helix.nix
     ./firefox.nix

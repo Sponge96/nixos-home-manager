@@ -1,7 +1,7 @@
 { config, pkgs, ... }:
 
 {
-  home.packages = with pkgs; [ ungit ];
+  home.packages = with pkgs; [ lazygit ];
   programs.git = {
     enable = true;
     userName = "Sponge";
