@@ -13,7 +13,7 @@
       modules-left = [ "cpu" "temperature" "tray" ];
       modules-center = [ "clock" ];
       modules-right = [ "pulseaudio" "custom/resources" "network" ];
-      clock = { format = "  {:%I:%M %p   %a %d}"; };
+      clock = { format = "  {:%H:%M %p   %a %d}"; };
       cpu = {
         interval = 10;
         format = "  {usage}%";

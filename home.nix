@@ -35,6 +35,7 @@
     ./python.nix
     ./via.nix
     ./zoxide.nix
+    ./r2modman.nix
   ];
 
   # This value determines the Home Manager release that your configuration is
