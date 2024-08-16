@@ -143,7 +143,7 @@
     dwindle {
         # pseudotile = true # Master switch for pseudotiling. Enabling is bound to mainMod + P in the keybinds section below
         smart_split = true
-        smart_resizing = true
+        # smart_resizing = true
         # preserve_split = true # You probably want this
     }
 

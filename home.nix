@@ -36,6 +36,7 @@
     ./via.nix
     ./zoxide.nix
     ./r2modman.nix
+    ./java.nix
   ];
 
   # This value determines the Home Manager release that your configuration is
