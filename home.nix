@@ -27,7 +27,6 @@
     ./spotify.nix
     ./1password.nix
     ./teams.nix
-    ./proton.nix
     ./discord.nix
     ./qbittorrent.nix
     ./git.nix
@@ -35,8 +34,11 @@
     ./python.nix
     ./via.nix
     ./zoxide.nix
+    # Games
+    ./proton.nix
     ./r2modman.nix
     ./java.nix
+    ./minecraft.nix
   ];
 
   # This value determines the Home Manager release that your configuration is
