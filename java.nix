@@ -1,5 +1,5 @@
 { config, pkgs, ... }:
 
 {
-  home.packages = with pkgs; [ zulu8 ];
+  home.packages = with pkgs; [ zulu17 ];
 }
