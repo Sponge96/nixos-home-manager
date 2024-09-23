@@ -8,19 +8,19 @@
 
   imports = [
     # CORE
-    ./hyprland.nix
-    ./kitty.nix
-    ./rofi-wayland.nix
-    ./swww.nix
-    ./dunst.nix
-    ./waybar.nix
-    ./fonts.nix
-    ./hyprpicker.nix
-    ./hyprshot.nix
-    ./theme.nix
-    ./pavucontrol.nix
-    ./resources.nix
-    ./unzip.nix
+    ./hyprland.nix # OS frontend
+    ./kitty.nix # term
+    ./rofi-wayland.nix # app launcher
+    ./swww.nix # background
+    ./dunst.nix # notifications
+    ./waybar.nix # toolbar
+    ./fonts.nix # system fonts
+    ./hyprpicker.nix # color picker
+    ./hyprshot.nix # screenshots
+    ./theme.nix # system themes
+    ./pavucontrol.nix # audio controller
+    ./resources.nix # task manager
+    ./unzip.nix # zipping
     # PROGRAMS
     ./helix.nix
     ./firefox.nix
