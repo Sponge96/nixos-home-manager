@@ -10,10 +10,10 @@
       exclusive = true;
       passthrough = false;
       height = 30;
-      modules-left =
-        [ "clock" "cpu" "temperature" "custom/resources" "pulseaudio" "tray" ];
+      modules-left = [ "clock" "tray" ];
       modules-center = [ ];
-      modules-right = [ "network" ];
+      modules-right =
+        [ "cpu" "temperature" "custom/resources" "pulseaudio" "network" ];
       clock = { format = "  {:%H:%M %p   %a %d}"; };
       cpu = {
         interval = 10;
@@ -80,7 +80,7 @@
         }
 
         #cpu {
-           background: @yellow;
+           background: @purple;
            border-radius: 10px;
            border: 3px solid #000000;
            margin: 4px 2px;
@@ -88,7 +88,7 @@
         }
 
         #temperature {
-           background: @yellow;
+           background: @purple;
            border-radius: 10px;
            border: 3px solid #000000;
            margin: 4px 2px;
@@ -104,7 +104,7 @@
         }
 
         #network {
-            background: @green;
+            background: @purple;
             border-radius: 10px;
             border: 3px solid #000000;
             margin: 4px 2px;
@@ -120,7 +120,7 @@
         }
 
         #pulseaudio {
-            background: @cyan;
+            background: @purple;
             border-radius: 10px;
             border: 3px solid #000000;
             margin: 4px 2px;
@@ -128,7 +128,7 @@
         }        
 
         #custom-resources {
-          background: @cyan;
+          background: @purple;
           border-radius: 10px;
           border: 3px solid #000000;
           margin: 4px 2px;
