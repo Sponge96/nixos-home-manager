@@ -10,9 +10,10 @@
       exclusive = true;
       passthrough = false;
       height = 30;
-      modules-left = [ "cpu" "temperature" "tray" ];
-      modules-center = [ "clock" ];
-      modules-right = [ "pulseaudio" "custom/resources" "network" ];
+      modules-left =
+        [ "clock" "cpu" "temperature" "custom/resources" "pulseaudio" "tray" ];
+      modules-center = [ ];
+      modules-right = [ "network" ];
       clock = { format = "  {:%H:%M %p   %a %d}"; };
       cpu = {
         interval = 10;
@@ -50,7 +51,7 @@
       };
     }];
     style = ''
-      @define-color background-darker rgba(30, 31, 41, 230);
+      @define-color background-darker rgba(30, 31, 41, 0.8);
       @define-color background #282a36;
       @define-color selection #44475a;
       @define-color foreground #f8f8f2;
@@ -79,7 +80,7 @@
         }
 
         #cpu {
-           background: @green;
+           background: @yellow;
            border-radius: 10px;
            border: 3px solid #000000;
            margin: 4px 2px;
@@ -95,7 +96,7 @@
         }
 
         #tray {
-           background: @cyan;
+           background: @purple;
            border-radius: 10px;
            border: 3px solid #000000;
            margin: 4px 2px;
@@ -127,7 +128,7 @@
         }        
 
         #custom-resources {
-          background: @yellow;
+          background: @cyan;
           border-radius: 10px;
           border: 3px solid #000000;
           margin: 4px 2px;
