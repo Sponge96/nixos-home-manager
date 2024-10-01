@@ -34,6 +34,7 @@
     ./python.nix
     ./via.nix
     ./zoxide.nix
+    ./typetest.nix
     # Games
     ./proton.nix
     ./r2modman.nix
