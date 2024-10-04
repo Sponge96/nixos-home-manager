@@ -7,7 +7,7 @@
   home.homeDirectory = "/home/sponge";
 
   imports = [
-    # CORE
+    # Core
     ./hyprland.nix # OS frontend
     ./kitty.nix # term
     ./rofi-wayland.nix # app launcher
@@ -21,19 +21,21 @@
     ./pavucontrol.nix # audio controller
     ./resources.nix # task manager
     ./unzip.nix # zipping
-    # PROGRAMS
-    ./helix.nix
+    # Programs
     ./firefox.nix
+    ./discord.nix
     ./spotify.nix
     ./1password.nix
-    ./teams.nix
-    ./discord.nix
     ./qbittorrent.nix
-    ./git.nix
+    ./via.nix
+    # Work
+    ./teams.nix
     ./obsidian.nix
     ./python.nix
-    ./via.nix
+    # Terminal Utils
+    ./helix.nix
     ./zoxide.nix
+    ./git.nix
     ./typetest.nix
     # Games
     ./proton.nix
