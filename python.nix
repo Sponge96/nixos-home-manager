@@ -1,6 +1,4 @@
 { config, pkgs, ... }:
 
-{
-  home.packages = with pkgs; [ python312 ];
-}
-
+let unstablePkgs = import <nixos-unstable> { };
+in { home.packages = with pkgs; [ python312 unstablePkgs.uv ]; }
