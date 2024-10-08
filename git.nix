@@ -7,4 +7,5 @@
     userName = "Sponge";
     userEmail = "Jackp.bcot@gmail.com";
   };
+  programs.bash.shellAliases = { lz = "lazygit"; };
 }
