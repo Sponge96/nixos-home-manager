@@ -116,7 +116,7 @@
 
         ### Text ###
 
-        font = Monospace 10
+        font = Jetbrains Mono 10
 
         # The spacing between lines.  If the height is smaller than the
         # font height, it will get raised to the font height.
