@@ -13,7 +13,7 @@
       modules-left = [ "clock" "tray" ];
       modules-center = [ ];
       modules-right =
-        [ "cpu" "temperature" "custom/resources" "pulseaudio" "network" ];
+        [ "cpu" "temperature" "custom/nvitop" "pulseaudio" "network" ];
       clock = { format = "  {:%H:%M %p   %a %d}"; };
       cpu = {
         interval = 10;
@@ -45,9 +45,9 @@
         format = " ";
         on-click = "pavucontrol";
       };
-      "custom/resources" = {
+      "custom/nvitop" = {
         format = " ";
-        on-click = "resources";
+        on-click = "kitty nvitop --monitor";
       };
     }];
     style = ''
@@ -127,7 +127,7 @@
             padding: 4px 4px;
         }        
 
-        #custom-resources {
+        #custom-nvitop {
           background: @purple;
           border-radius: 10px;
           border: 3px solid #000000;
