@@ -19,7 +19,7 @@
     ./hyprshot.nix # screenshots
     ./theme.nix # system themes
     ./pavucontrol.nix # audio controller
-    ./resources.nix # task manager
+    ./nvitop.nix # process manager/stat
     ./unzip.nix # zipping
     # Programs
     ./firefox.nix
