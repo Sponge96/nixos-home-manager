@@ -24,7 +24,6 @@
     # Programs
     ./firefox.nix
     ./discord.nix
-    ./spotify.nix
     ./1password.nix
     ./qbittorrent.nix
     ./via.nix
