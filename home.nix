@@ -40,8 +40,8 @@
     # Games
     ./proton.nix
     ./r2modman.nix
-    ./java.nix
-    ./minecraft.nix
+    # ./java.nix
+    # ./minecraft.nix
   ];
 
   # This value determines the Home Manager release that your configuration is
